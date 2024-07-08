@@ -3,7 +3,7 @@ import axios from 'axios';
 import CarItem from './CarItem';
 import CarForm from './CarForm';
 
-const CarCollection = () => {
+const Carlist = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
